@@ -9,7 +9,7 @@ Unified **Twitch**, **Kick**, **YouTube**, and **X** chat dock for **OBS Studio*
 | Installer | Description |
 |-----------|-------------|
 | **[CaptainMultiChat-Setup.exe](https://github.com/Daywon21/captain-multi-chat-releases/releases/latest)** | One-click Windows installer (recommended) |
-| **[CaptainMultiChat-Portable.zip](https://github.com/Daywon21/captain-multi-chat-releases/releases/latest)** | Zip package â€” run `Install-Portable.cmd` after extract |
+| **[CaptainMultiChat-Portable.zip](https://github.com/Daywon21/captain-multi-chat-releases/releases/latest)** | Extract and double-click **Install Captain Multi Chat** |
 
 **Requirements:** Windows 10/11 (64-bit), [OBS Studio 32+](https://obsproject.com) (64-bit)
 
