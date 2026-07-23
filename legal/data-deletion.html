@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Captain Multi Chat — User Data Deletion</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, sans-serif; line-height: 1.5; max-width: 44rem; margin: 2rem auto; padding: 0 1.25rem; }
+    h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    .muted { opacity: 0.75; font-size: 0.95rem; }
+    ol, ul { padding-left: 1.25rem; }
+    code { font-size: 0.95em; }
+  </style>
+</head>
+<body>
+  <h1>Captain Multi Chat — User Data Deletion</h1>
+  <p class="muted">How to remove Facebook / Meta data used by Captain Multi Chat</p>
+
+  <p>
+    Captain Multi Chat stores Facebook connection data <strong>only on your computer</strong>
+    (encrypted vault + local settings). There is no Captain Multi Chat cloud profile that keeps
+    your Page tokens after you delete local data and revoke the app on Facebook.
+  </p>
+
+  <h2>Delete from the app (recommended)</h2>
+  <ol>
+    <li>Open the Captain Multi Chat dock in OBS</li>
+    <li>Open <strong>Settings</strong></li>
+    <li>Under <strong>Facebook</strong>, click <strong>Log out</strong></li>
+  </ol>
+  <p>That clears the stored Facebook user token, Page token, and Page selection from the local vault.</p>
+
+  <h2>Revoke access on Facebook</h2>
+  <ol>
+    <li>Visit <a href="https://www.facebook.com/settings?tab=applications">Facebook → Settings → Apps and websites</a></li>
+    <li>Find <strong>Captain Multi Chat</strong> (or the Meta app name you authorized)</li>
+    <li>Remove / revoke access</li>
+  </ol>
+
+  <h2>Delete all local Captain Multi Chat data (Windows)</h2>
+  <p>Fully quit OBS, then delete the app data folder:</p>
+  <ul>
+    <li><code>%APPDATA%\CaptainMultiChat</code></li>
+  </ul>
+  <p>
+    That removes the encrypted vault, config, and related local state for all platforms — not only Facebook.
+  </p>
+
+  <h2>Request help</h2>
+  <p>
+    If you need confirmation that Facebook authorization was cleared, revoke the app in Facebook settings
+    (above) and open an issue at
+    <a href="https://github.com/Daywon21/captain-multi-chat-releases/issues">captain-multi-chat-releases issues</a>.
+  </p>
+
+  <p><a href="./privacy.html">Privacy Policy</a></p>
+</body>
+</html>

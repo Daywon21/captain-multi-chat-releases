@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Captain Multi Chat — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, sans-serif; line-height: 1.5; max-width: 44rem; margin: 2rem auto; padding: 0 1.25rem; }
+    h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    .muted { opacity: 0.75; font-size: 0.95rem; }
+    ul { padding-left: 1.25rem; }
+  </style>
+</head>
+<body>
+  <h1>Captain Multi Chat — Privacy Policy</h1>
+  <p class="muted">Effective date: July 22, 2026 · Product: Captain Multi Chat (OBS dock + local backend)</p>
+
+  <p>
+    Captain Multi Chat is desktop software that runs on your computer. It connects your streaming
+    platform accounts so chat can appear in one OBS dock. This policy describes how the
+    <strong>Facebook / Meta</strong> integration handles data when you use Connect Facebook.
+  </p>
+
+  <h2>Who controls the data</h2>
+  <p>
+    You run the app locally. Platform tokens and settings are stored on your machine in an encrypted
+    vault under your user profile. We do not operate a Captain Multi Chat cloud account that receives
+    your Facebook messages.
+  </p>
+
+  <h2>Data we access (Facebook / Meta)</h2>
+  <p>When you authorize Facebook Login for Captain Multi Chat, the app may access:</p>
+  <ul>
+    <li>Your Facebook user id and display name (to show who is connected)</li>
+    <li>The list of Facebook Pages you manage (so you can pick which Page to use)</li>
+    <li>Page access tokens needed to attach to that Page’s Live video</li>
+    <li>Live video comments on the Page Live you are streaming (to show and send chat in the dock)</li>
+  </ul>
+  <p>
+    The app requests Page-related permissions only (for example
+    <code>pages_show_list</code>, <code>pages_read_engagement</code>,
+    <code>pages_manage_engagement</code>, <code>pages_read_user_content</code>).
+    It does not need your email, friends list, photos, or birthday.
+  </p>
+
+  <h2>How data is used</h2>
+  <ul>
+    <li>Show unified chat in OBS while you are live</li>
+    <li>Send chat you type from the dock to your Page Live</li>
+    <li>Remember which Page you selected until you change it or log out</li>
+  </ul>
+  <p>We do not sell Facebook data. We do not use it for advertising.</p>
+
+  <h2>Storage and retention</h2>
+  <ul>
+    <li>Tokens and Page selection stay on your PC until you log out of Facebook in Settings or uninstall/clear the app data folder</li>
+    <li>Chat lines shown in the dock are kept in memory (and optional local UI buffers) for the session — not uploaded to a Captain Multi Chat server</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <p>
+    Facebook/Meta processes authentication and Graph/Live APIs under Meta’s terms.
+    See Meta’s policies at
+    <a href="https://www.facebook.com/policy.php">facebook.com/policy.php</a>.
+  </p>
+
+  <h2>Children</h2>
+  <p>Captain Multi Chat is intended for streamers and is not directed at children under 13.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Log out of Facebook inside Captain Multi Chat Settings</li>
+    <li>Remove the app from your Facebook account:
+      <a href="https://www.facebook.com/settings?tab=applications">facebook.com/settings → Apps and websites</a></li>
+    <li>Request deletion of local app data by deleting the Captain Multi Chat data folder on your PC
+      (see the <a href="./data-deletion.html">User Data Deletion</a> page)</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy or Facebook data use: open an issue on the public releases repository
+    <a href="https://github.com/Daywon21/captain-multi-chat-releases">Daywon21/captain-multi-chat-releases</a>
+    or contact the app publisher via that repository.
+  </p>
+</body>
+</html>
